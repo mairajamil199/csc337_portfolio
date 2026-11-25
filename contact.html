@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact details, location map, friends' names and IDs, and a contact form.">
+  <meta name="keywords" content="contact, email, phone, map, form">
+  <meta name="author" content="Your Name">
+  <title>Contact | My Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="logo">My Portfolio</h1>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
+          <li><a href="media.html">Favourite Media</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contact Me</h2>
+      <div class="contact-grid">
+        <article>
+          <h3>My Details</h3>
+          <ul>
+            <li><strong>Name:</strong> Maira Jamil</li>
+            <li><strong>Designation:</strong> BSCS Student (6th Semester)</li>
+            <li><strong>Email:</strong> <a href="mailto:mairajamil2005@yahoo.com">mairajamil2005@yahoo.com</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+923005361213">0300 5361 213</a></li>
+          </ul>
+
+          <h3>My Friends</h3>
+          <div class="table-wrap">
+            <table>
+              <caption>Friends' Names and IDs</caption>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>ID</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Mehwish</td>
+                  <td>41273</td>
+                </tr>
+                <tr>
+                  <td>Ayesha</td>
+                  <td>41361</td>
+                </tr>
+                <tr>
+                  <td>Asawer</td>
+                  <td>41244</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="map-box">
+          <h3>Find Me Here</h3>
+          <iframe src="https://www.google.com/maps?q=Rawalpindi,Pakistan&amp;output=embed" title="Google Map showing my location" loading="lazy" allowfullscreen></iframe>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Send a Message</h2>
+      <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Maira Jamil | BSCS </p>
+    <p><a href="contact.html">Get in touch</a></p>
+  </footer>
+
+</body>
+</html>
